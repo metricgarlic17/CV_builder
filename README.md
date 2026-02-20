@@ -1,22 +1,62 @@
-<<<<<<< HEAD
-# React + Vite
+# CV Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that allows users to create and preview their Curriculum Vitae (CV) in real-time. Built as part of The Odin Project curriculum.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Live Preview:** See changes applied instantly to your CV as you type.
+- **General Information:** Add your name, email, and phone number.
+- **Educational Experience:** Add details about your education, including school, title of study, and dates. 
+- **Practical Experience:** Add work experience, including company name, position title, main responsibilities, and dates.
+- **Print/Save:** Easily print your generated CV or save it as a PDF using the browser's built-in print functionality.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **React:** For building the user interface components and managing state.
+- **Vite:** For fast frontend tooling and development.
+- **CSS:** Custom styling for layout and presentation.
 
-Note: This will impact Vite dev & build performances.
+## Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# CV_builder
->>>>>>> eca496510925f52aa7045e08af49f9cb99aa5b6e
+- Node.js installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd CV_Generator
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the App
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`.
+
+### Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+The compiled assets will be in the `dist` directory.
+
+## Acknowledgements
+
+- Project from [The Odin Project](https://www.theodinproject.com/).
